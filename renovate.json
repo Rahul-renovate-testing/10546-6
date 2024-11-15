@@ -1,7 +1,8 @@
 {
   "packageRules": [{
     "matchManagers": ["gradle"],
-    "prConcurrentLimit": 5
+    "prConcurrentLimit": 5,
+    "prPriority": 10
   }],
   "prHourlyLimit": 10
 }
