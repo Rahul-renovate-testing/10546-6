@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+      "@aws-sdk/client-codecommit": "3.658.0",
+     "@breejs/later": "4.1.0",
+    "@cdktf/hcl2json": "0.20.8",
+    "@opentelemetry/api": "1.8.0",
+    "xmldoc": "1.2.0"
+  }
+}
