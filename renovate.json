@@ -2,7 +2,13 @@
   "packageRules": [{
     "matchManagers": ["gradle"],
     "prConcurrentLimit": 5,
-    "prPriority": 10
-  }],
+    "prPriority": 10,
+    "addLabels": ["gradle"]
+  },
+  {
+    "matchManagers": ["npm"],
+    "addLabels": ["npm"]
+  }
+],
   "prHourlyLimit": 10
 }
