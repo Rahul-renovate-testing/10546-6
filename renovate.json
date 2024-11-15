@@ -1,0 +1,6 @@
+{
+  "packageRules": [{
+    "matchManagers": ["gradle"],
+    "prConcurrentLimit": 5
+  }]
+}
